@@ -1,0 +1,16 @@
+.container-secondary__cards {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card-primary {
+    height: 400px;
+}
+
+.card-secondary {
+    padding: 0;
+}
+
+.card-secondary h2 {
+    margin-top: 0;
+}

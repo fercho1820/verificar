@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/tablet.css" media="(min-width: 768px)">
+</head>
+<body>
+   <main>
+        <section class="container-primary">
+            <div class="title">
+                <h1>Checkout</h1>
+            </div>
+            <section class="container-secondary__cards">
+                <section class="card-primary">
+                    <div class="content-photo">
+                        <figure>
+                            <img src="./assets/photo1.png" alt="photo primary">
+                        </figure>
+                        <div class="box-name">
+                            <p class="name-product">Vintage Backbag</p>
+                            <p class="descuento-product">$54.99<del class="valor-product">$94.99</del></p>
+                            <p class="agregar-cantidad"><span class="agregar-productos">-</span>1<span class="quitar-productos">+</span></p>
+                        </div>
+                    </div>
+                    <div class="content-photo">
+                        <figure>
+                            <img src="./assets/photo2.png" alt="photo secondary">
+                        </figure>
+                        <div class="box-name">
+                            <p class="name-product">Levi Shoes</p>
+                            <p class="descuento-product">$74.99<del class="valor-product">$124.99</del></p>
+                            <p class="agregar-cantidad"><span class="agregar-productos">-</span>1<span class="quitar-productos">+</span></p>
+                        </div>
+                    </div>
+                    <div class="content-costo__envio">
+                        <div class="costo-envio">
+                            <p>Shipping</p>
+                            <p>$19</p>
+                        </div>
+                        <div class="costo-envio">
+                            <p>Total</p>
+                            <p>$148.98</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="card-secondary">
+                    <h2>Contact infomation</h2>
+                    <form action="#">
+                        <label for="email">E-mail 
+                            <div class="content-photo__form">
+                                <img src="./assets/icon-gmail.png" alt="icono de gmail">
+                                <input type="email" di="email" name="email" placeholder="Enter your email..." required>
+                            </div>
+                        </label>
+                        <label for="phone">Phone 
+                            <div class="content-photo__form">
+                                <img src="./assets/icon-telefono.png" alt="icono del celular">
+                                <input type="tel" di="phone" name="phone" placeholder="Enter your phone..." required >
+                            </div>
+                        </label>
+                        <h2>Shipping address</h2>
+                        <label for="name">Full name 
+                            <div class="content-photo__form">
+                                <img src="./assets/icon-contacto.png" alt="icono de gmail">
+                                <input type="text" di="name" name="name" placeholder="Fernando Uribe..." required>
+                            </div>
+                        </label>
+                        <label for="address">Address
+                            <div class="content-photo__form">
+                                <img src="./assets/icon-casa.png" alt="icono del celular">
+                                <input type="address" di="address" name="address" placeholder="Your address..." required >
+                            </div>
+                        </label>
+                        <label for="city">City 
+                            <div class="content-photo__form">
+                                <img src="./assets/icon-empresa.png" alt="icono del celular">
+                                <input type="text" di="city" name="city" placeholder="Your city..." required >
+                            </div>
+                        </label>
+                        <label for="#">Country
+                            <div class="ultimos">
+                                <div class="content--photo__country">
+                                    <img src="./assets/icon-wordl.png" alt="">
+                                    <select name="country" id="count" required>
+                                        <option value="country">Your country...</option>
+                                        <option value="mexico">México</option>
+                                        <option value="puertorrico">Puertorrico</option>
+                                        <option value="brasil">Brasil</option>
+                                        <option value="ecuador">Ecuador</option>
+                                        <option value="peru">Perú</option>
+                                        <option value="venezuela">Venezuela</option>
+                                        <option value="argentina">Argentina</option>
+                                        <option value="colombia">Colombia</option>
+                                    </select> 
+                                </div>
+                                <label class="postal-code" for="codepostal">Postal code 
+                                    <div class="content-photo__postal">
+                                        <img src="./assets/icon-maleta.png" alt="">
+                                        <input type="nunber" id="codepostal" name="codepostal" placeholder="Your postal code" required>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="content-checkbox__span">
+                                <input class="checkbox-botton" type="checkbox"><span class="checkbox-span">Save this information for nex time</span>
+                            </div>
+                        </label>
+                        <div class="botton-submit">
+                            <input class="submit" type="submit">
+                        </div>
+                    </form>
+                </section>
+            </section>
+        </section>
+   </main> 
+   <footer>
+    <p>Create by <a href="#">@ferrcode</a> - devChallenges.io</p>
+   </footer>
+</body>
+</html>
